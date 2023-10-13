@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+     <div class="wrapper">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        
+        <div class="card">
+            <div class="img-div">
+                <img src="./images/profile-image.webp" alt="" class="profile-img">
+            </div>
+
+            <h3 class="card-heading">Love Babbar</h3>
+            <p class="card-subheading">Founder, Code Help</p>
+            <div class="buttons">
+                <button onclick="modalOpen()" class="btn-1 btn button-1">
+                    <i  class="fa-solid fa-share" style="color: #ffffff;"></i>
+                    <p>Share My Profile</p>
+                </button>
+
+                <button class="btn-2 btn">
+                    Follow Me
+                </button>
+            </div>
+        </div>
+
+
+
+
+          <div class="modal ">
+            <div class="header">
+                <h2 class="modal-heading">Share My Profile</h2>
+                <i onclick="modalClose()" class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+            </div>
+             <p class="modal-subheading">  Share this via</p>
+             <div class="logos">
+                <a href="#" class="fb log">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="twitter log">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="#" class="instagram log">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="whatsapp log">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#" class="telegram log">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+             </div>
+
+          </div>
+
+         <div onclick="modalClose()" class="relay"></div>
+
+
+     </div>
+
+</body>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script src="2.js"></script>
+</html>
